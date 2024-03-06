@@ -38,7 +38,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 splits = text_splitter.split_documents(docs)
 
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'OPENAI_API_KEY'
 
 from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
